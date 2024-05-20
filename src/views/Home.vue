@@ -22,9 +22,9 @@
   export default {
     data() {
       return {
-        originalBackground: require('@/assets/bgh.jpg'),
+        originalBackground: require('@/assets/bghf.jpg'),
         animatedBackground: require('@/assets/anim.gif'),
-        currentBackground: require('@/assets/bgh.jpg'),
+        currentBackground: require('@/assets/bghf.jpg'),
       };
     },
     methods: {
