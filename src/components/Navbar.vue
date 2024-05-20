@@ -5,8 +5,6 @@
         src="@/assets/logo2.png"
         alt="Icon"
         class="navbar-icon"
-        @click="toggleClick"
-        :class="{ clicked: isClicked }"
       />
       <router-link to="/" class="home-link text-effect-left">ITMaxxers</router-link>
     </div>
@@ -28,11 +26,6 @@ export default {
       isClicked: false
     };
   },
-  methods: {
-    toggleClick() {
-      this.isClicked = !this.isClicked;
-    }
-  }
 };
 </script>
 
