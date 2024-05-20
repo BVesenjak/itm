@@ -12,8 +12,12 @@ npm run serve
 
 ### Compiles and minifies for production
 ```
-npm run build
+npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Add fort-awesome/font-awesome awesome-icons libraries
+npm install --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
+npm install --save @fortawesome/free-brands-svg-icons
+npm install --save @fortawesome/vue-fontawesome@latest
